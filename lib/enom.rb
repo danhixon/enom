@@ -1,3 +1,4 @@
+require 'enom/version'
 require 'httparty'
 
 require File.expand_path('../enom/client',  __FILE__)
