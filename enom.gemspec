@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email = "bensie@gmail.com"
   s.files  = %w( README.md Rakefile LICENSE ) + ["lib/enom.rb"] + Dir.glob("lib/enom/*.rb") + Dir.glob("lib/enom/commands/*.rb") + Dir.glob("test/**/*") + Dir.glob("bin/*")
   s.has_rdoc = false
-  s.add_dependency "httparty", "~> 0.13.0"
+  s.add_dependency "httparty", ">= 0.13.0"
   s.add_dependency "public_suffix"
   s.add_development_dependency "shoulda"
   s.add_development_dependency "fakeweb"
